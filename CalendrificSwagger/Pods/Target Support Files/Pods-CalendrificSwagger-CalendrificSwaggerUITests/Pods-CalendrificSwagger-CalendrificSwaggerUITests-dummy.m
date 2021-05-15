@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CalendrificSwagger_CalendrificSwaggerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CalendrificSwagger_CalendrificSwaggerUITests
+@end

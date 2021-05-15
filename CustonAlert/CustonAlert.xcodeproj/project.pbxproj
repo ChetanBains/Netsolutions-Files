@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00625C782604897C00A82A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00625C772604897C00A82A2C /* AppDelegate.swift */; };
+		00625C7A2604897C00A82A2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00625C792604897C00A82A2C /* SceneDelegate.swift */; };
+		00625C7C2604897C00A82A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00625C7B2604897C00A82A2C /* ViewController.swift */; };
+		00625C7F2604897C00A82A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00625C7D2604897C00A82A2C /* Main.storyboard */; };
+		00625C812604898000A82A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00625C802604898000A82A2C /* Assets.xcassets */; };
+		00625C842604898000A82A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00625C822604898000A82A2C /* LaunchScreen.storyboard */; };
+		00625C8F2604898100A82A2C /* CustonAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00625C8E2604898100A82A2C /* CustonAlertTests.swift */; };
+		00625C9A2604898100A82A2C /* CustonAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00625C992604898100A82A2C /* CustonAlertUITests.swift */; };
+		5968D5267C134A4C4139016C /* Pods_CustonAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE98964DF8F977C19A816F6 /* Pods_CustonAlertTests.framework */; };
+		C7858F5ECF0E38021727D7D9 /* Pods_CustonAlert_CustonAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE85C99D5F2214D1C4EB0544 /* Pods_CustonAlert_CustonAlertUITests.framework */; };
+		DFE0C0B00F6F4013100450BB /* Pods_CustonAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303432A30436FC5B5A774C44 /* Pods_CustonAlert.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00625C8B2604898100A82A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00625C6C2604897B00A82A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00625C732604897B00A82A2C;
+			remoteInfo = CustonAlert;
+		};
+		00625C962604898100A82A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00625C6C2604897B00A82A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00625C732604897B00A82A2C;
+			remoteInfo = CustonAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00625C742604897C00A82A2C /* CustonAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustonAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00625C772604897C00A82A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00625C792604897C00A82A2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00625C7B2604897C00A82A2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00625C7E2604897C00A82A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00625C802604898000A82A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00625C832604898000A82A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00625C852604898000A82A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00625C8A2604898100A82A2C /* CustonAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustonAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00625C8E2604898100A82A2C /* CustonAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonAlertTests.swift; sourceTree = "<group>"; };
+		00625C902604898100A82A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00625C952604898100A82A2C /* CustonAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustonAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00625C992604898100A82A2C /* CustonAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonAlertUITests.swift; sourceTree = "<group>"; };
+		00625C9B2604898100A82A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170D343B7A56AF76261B8AEF /* Pods-CustonAlert-CustonAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlert-CustonAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-CustonAlert-CustonAlertUITests/Pods-CustonAlert-CustonAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		303432A30436FC5B5A774C44 /* Pods_CustonAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustonAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE98964DF8F977C19A816F6 /* Pods_CustonAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustonAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800E8A2F85FB76F5AEF62B2E /* Pods-CustonAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlert.debug.xcconfig"; path = "Target Support Files/Pods-CustonAlert/Pods-CustonAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		8BCC04045EB2CC4A272AC7F4 /* Pods-CustonAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlertTests.release.xcconfig"; path = "Target Support Files/Pods-CustonAlertTests/Pods-CustonAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		992811EC51210B9B101DD906 /* Pods-CustonAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlertTests.debug.xcconfig"; path = "Target Support Files/Pods-CustonAlertTests/Pods-CustonAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE85C99D5F2214D1C4EB0544 /* Pods_CustonAlert_CustonAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustonAlert_CustonAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D740D55F3AC32CB7806D2D65 /* Pods-CustonAlert-CustonAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlert-CustonAlertUITests.release.xcconfig"; path = "Target Support Files/Pods-CustonAlert-CustonAlertUITests/Pods-CustonAlert-CustonAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA32EFD227F08132ED16661F /* Pods-CustonAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonAlert.release.xcconfig"; path = "Target Support Files/Pods-CustonAlert/Pods-CustonAlert.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00625C712604897B00A82A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE0C0B00F6F4013100450BB /* Pods_CustonAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C872604898100A82A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5968D5267C134A4C4139016C /* Pods_CustonAlertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C922604898100A82A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7858F5ECF0E38021727D7D9 /* Pods_CustonAlert_CustonAlertUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00625C6B2604897B00A82A2C = {
+			isa = PBXGroup;
+			children = (
+				00625C762604897C00A82A2C /* CustonAlert */,
+				00625C8D2604898100A82A2C /* CustonAlertTests */,
+				00625C982604898100A82A2C /* CustonAlertUITests */,
+				00625C752604897C00A82A2C /* Products */,
+				7DED7E7B98B1844DA4F0D79D /* Pods */,
+				B039C4B1298B1E555BAD92D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00625C752604897C00A82A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00625C742604897C00A82A2C /* CustonAlert.app */,
+				00625C8A2604898100A82A2C /* CustonAlertTests.xctest */,
+				00625C952604898100A82A2C /* CustonAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00625C762604897C00A82A2C /* CustonAlert */ = {
+			isa = PBXGroup;
+			children = (
+				00625C772604897C00A82A2C /* AppDelegate.swift */,
+				00625C792604897C00A82A2C /* SceneDelegate.swift */,
+				00625C7B2604897C00A82A2C /* ViewController.swift */,
+				00625C7D2604897C00A82A2C /* Main.storyboard */,
+				00625C802604898000A82A2C /* Assets.xcassets */,
+				00625C822604898000A82A2C /* LaunchScreen.storyboard */,
+				00625C852604898000A82A2C /* Info.plist */,
+			);
+			path = CustonAlert;
+			sourceTree = "<group>";
+		};
+		00625C8D2604898100A82A2C /* CustonAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				00625C8E2604898100A82A2C /* CustonAlertTests.swift */,
+				00625C902604898100A82A2C /* Info.plist */,
+			);
+			path = CustonAlertTests;
+			sourceTree = "<group>";
+		};
+		00625C982604898100A82A2C /* CustonAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00625C992604898100A82A2C /* CustonAlertUITests.swift */,
+				00625C9B2604898100A82A2C /* Info.plist */,
+			);
+			path = CustonAlertUITests;
+			sourceTree = "<group>";
+		};
+		7DED7E7B98B1844DA4F0D79D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800E8A2F85FB76F5AEF62B2E /* Pods-CustonAlert.debug.xcconfig */,
+				FA32EFD227F08132ED16661F /* Pods-CustonAlert.release.xcconfig */,
+				170D343B7A56AF76261B8AEF /* Pods-CustonAlert-CustonAlertUITests.debug.xcconfig */,
+				D740D55F3AC32CB7806D2D65 /* Pods-CustonAlert-CustonAlertUITests.release.xcconfig */,
+				992811EC51210B9B101DD906 /* Pods-CustonAlertTests.debug.xcconfig */,
+				8BCC04045EB2CC4A272AC7F4 /* Pods-CustonAlertTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B039C4B1298B1E555BAD92D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303432A30436FC5B5A774C44 /* Pods_CustonAlert.framework */,
+				AE85C99D5F2214D1C4EB0544 /* Pods_CustonAlert_CustonAlertUITests.framework */,
+				5FE98964DF8F977C19A816F6 /* Pods_CustonAlertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00625C732604897B00A82A2C /* CustonAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00625C9E2604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlert" */;
+			buildPhases = (
+				C23792CC23505BF0F75105AD /* [CP] Check Pods Manifest.lock */,
+				00625C702604897B00A82A2C /* Sources */,
+				00625C712604897B00A82A2C /* Frameworks */,
+				00625C722604897B00A82A2C /* Resources */,
+				43229DC74C65C4D9D5B7CF50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustonAlert;
+			productName = CustonAlert;
+			productReference = 00625C742604897C00A82A2C /* CustonAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00625C892604898100A82A2C /* CustonAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00625CA12604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlertTests" */;
+			buildPhases = (
+				6629C796C2F4A3E44F809C70 /* [CP] Check Pods Manifest.lock */,
+				00625C862604898100A82A2C /* Sources */,
+				00625C872604898100A82A2C /* Frameworks */,
+				00625C882604898100A82A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00625C8C2604898100A82A2C /* PBXTargetDependency */,
+			);
+			name = CustonAlertTests;
+			productName = CustonAlertTests;
+			productReference = 00625C8A2604898100A82A2C /* CustonAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00625C942604898100A82A2C /* CustonAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00625CA42604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlertUITests" */;
+			buildPhases = (
+				C48607A739DF83CA2E110AE7 /* [CP] Check Pods Manifest.lock */,
+				00625C912604898100A82A2C /* Sources */,
+				00625C922604898100A82A2C /* Frameworks */,
+				00625C932604898100A82A2C /* Resources */,
+				DD4B45F1264BBA8929A3868B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00625C972604898100A82A2C /* PBXTargetDependency */,
+			);
+			name = CustonAlertUITests;
+			productName = CustonAlertUITests;
+			productReference = 00625C952604898100A82A2C /* CustonAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00625C6C2604897B00A82A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					00625C732604897B00A82A2C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					00625C892604898100A82A2C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00625C732604897B00A82A2C;
+					};
+					00625C942604898100A82A2C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00625C732604897B00A82A2C;
+					};
+				};
+			};
+			buildConfigurationList = 00625C6F2604897B00A82A2C /* Build configuration list for PBXProject "CustonAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00625C6B2604897B00A82A2C;
+			productRefGroup = 00625C752604897C00A82A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00625C732604897B00A82A2C /* CustonAlert */,
+				00625C892604898100A82A2C /* CustonAlertTests */,
+				00625C942604898100A82A2C /* CustonAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00625C722604897B00A82A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00625C842604898000A82A2C /* LaunchScreen.storyboard in Resources */,
+				00625C812604898000A82A2C /* Assets.xcassets in Resources */,
+				00625C7F2604897C00A82A2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C882604898100A82A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C932604898100A82A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43229DC74C65C4D9D5B7CF50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustonAlert/Pods-CustonAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustonAlert/Pods-CustonAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustonAlert/Pods-CustonAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6629C796C2F4A3E44F809C70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustonAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23792CC23505BF0F75105AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustonAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48607A739DF83CA2E110AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustonAlert-CustonAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4B45F1264BBA8929A3868B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustonAlert-CustonAlertUITests/Pods-CustonAlert-CustonAlertUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustonAlert-CustonAlertUITests/Pods-CustonAlert-CustonAlertUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustonAlert-CustonAlertUITests/Pods-CustonAlert-CustonAlertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00625C702604897B00A82A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00625C7C2604897C00A82A2C /* ViewController.swift in Sources */,
+				00625C782604897C00A82A2C /* AppDelegate.swift in Sources */,
+				00625C7A2604897C00A82A2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C862604898100A82A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00625C8F2604898100A82A2C /* CustonAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00625C912604898100A82A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00625C9A2604898100A82A2C /* CustonAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00625C8C2604898100A82A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00625C732604897B00A82A2C /* CustonAlert */;
+			targetProxy = 00625C8B2604898100A82A2C /* PBXContainerItemProxy */;
+		};
+		00625C972604898100A82A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00625C732604897B00A82A2C /* CustonAlert */;
+			targetProxy = 00625C962604898100A82A2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00625C7D2604897C00A82A2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00625C7E2604897C00A82A2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00625C822604898000A82A2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00625C832604898000A82A2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00625C9C2604898100A82A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00625C9D2604898100A82A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00625C9F2604898100A82A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800E8A2F85FB76F5AEF62B2E /* Pods-CustonAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00625CA02604898100A82A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA32EFD227F08132ED16661F /* Pods-CustonAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00625CA22604898100A82A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992811EC51210B9B101DD906 /* Pods-CustonAlertTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustonAlert.app/CustonAlert";
+			};
+			name = Debug;
+		};
+		00625CA32604898100A82A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCC04045EB2CC4A272AC7F4 /* Pods-CustonAlertTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustonAlert.app/CustonAlert";
+			};
+			name = Release;
+		};
+		00625CA52604898100A82A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170D343B7A56AF76261B8AEF /* Pods-CustonAlert-CustonAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustonAlert;
+			};
+			name = Debug;
+		};
+		00625CA62604898100A82A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D740D55F3AC32CB7806D2D65 /* Pods-CustonAlert-CustonAlertUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustonAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CustonAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustonAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00625C6F2604897B00A82A2C /* Build configuration list for PBXProject "CustonAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00625C9C2604898100A82A2C /* Debug */,
+				00625C9D2604898100A82A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00625C9E2604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00625C9F2604898100A82A2C /* Debug */,
+				00625CA02604898100A82A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00625CA12604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00625CA22604898100A82A2C /* Debug */,
+				00625CA32604898100A82A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00625CA42604898100A82A2C /* Build configuration list for PBXNativeTarget "CustonAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00625CA52604898100A82A2C /* Debug */,
+				00625CA62604898100A82A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00625C6C2604897B00A82A2C /* Project object */;
+}

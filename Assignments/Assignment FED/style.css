@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 0 auto;
+    height: 2.5rem;
+    background-color: black;
+}
+
+.header #name {
+    color: grey;
+    margin-left: 10rem;
+    font-size: 1.9rem;
+}
+
+.hero {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.hero p {
+    margin: 0 4rem 0 4rem;
+}
+
+.hero #edit {
+    margin: 10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 10%;
+    background-color: lightblue;
+}
+
+.hero #submit {
+    height: 30px;
+    width: 50px;
+    border-radius: 10%;
+    background-color: lightblue;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .row .col {
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+}
+
+.footer {
+    margin: 30px auto;
+    height: 50px;
+    background-color: gray;
+}
+
+.footer

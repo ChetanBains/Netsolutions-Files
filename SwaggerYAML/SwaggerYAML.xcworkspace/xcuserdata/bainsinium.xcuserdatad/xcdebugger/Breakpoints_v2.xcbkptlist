@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C49AE91D-4CCE-4C92-BDB9-087BB78A2278"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46B6694B-029D-45B8-9E6F-B4A803608175"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwaggerYAML/ViewControllerTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAC43AB4-AE24-4824-9D6B-D461E8203050"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwaggerYAML/ViewControllerTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D558C174-EA80-40F0-A19F-9B36A4121E82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwaggerYAML/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "didTap1()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D558C174-EA80-40F0-A19F-9B36A4121E82 - ec59fee369892c56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.didTap1() -&gt; ()"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "D558C174-EA80-40F0-A19F-9B36A4121E82 - 13120c932f17e3b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;SwaggerYAML.DemoPost&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwaggerYAML.ViewController.didTap1() -&gt; ()"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63E0B0A5-03DD-454D-8991-FF25181FBF3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwaggerYAML/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwaggerYAML/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - a38ffdd250f56e5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.arrayDataPostsGet.getter : Swift.Array&lt;SwaggerYAML.DemoPost&gt;"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - a22dcc586c6b7241"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.arrayDataPostsGet.setter : Swift.Array&lt;SwaggerYAML.DemoPost&gt;"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - 7bf0a625b9741cc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.arrayDataPostsGet.modify : Swift.Array&lt;SwaggerYAML.DemoPost&gt;"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - 1778de04b52c1ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.arrayDataPostsGet.modify : Swift.Array&lt;SwaggerYAML.DemoPost&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - fa63c2a17ebf320d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwaggerYAML.ViewController"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "191">
+               </Location>
+               <Location
+                  uuid = "E4481234-7257-4ECB-99E6-BE98BE4A2DDD - 386df53793f9eaa8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwaggerYAML.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwaggerYAML.ViewController&gt;"
+                  moduleName = "SwaggerYAML"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bainsinium/Desktop/NetSolutions/SwaggerYAML/SwaggerYAML/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

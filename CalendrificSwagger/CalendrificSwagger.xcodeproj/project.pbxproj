@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00048585261C9104005B273A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048584261C9104005B273A /* AppDelegate.swift */; };
+		00048587261C9104005B273A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048586261C9104005B273A /* SceneDelegate.swift */; };
+		00048589261C9104005B273A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048588261C9104005B273A /* ViewController.swift */; };
+		0004858C261C9104005B273A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0004858A261C9104005B273A /* Main.storyboard */; };
+		0004858E261C9108005B273A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0004858D261C9108005B273A /* Assets.xcassets */; };
+		00048591261C9108005B273A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0004858F261C9108005B273A /* LaunchScreen.storyboard */; };
+		0004859C261C9109005B273A /* CalendrificSwaggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004859B261C9109005B273A /* CalendrificSwaggerTests.swift */; };
+		000485A7261C9109005B273A /* CalendrificSwaggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000485A6261C9109005B273A /* CalendrificSwaggerUITests.swift */; };
+		00048610261C9291005B273A /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000485FC261C9291005B273A /* APIHelper.swift */; };
+		00048611261C9291005B273A /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000485FD261C9291005B273A /* AlamofireImplementations.swift */; };
+		00048612261C9291005B273A /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000485FE261C9291005B273A /* JSONValue.swift */; };
+		00048613261C9291005B273A /* CalendrificAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048600261C9291005B273A /* CalendrificAPI.swift */; };
+		00048614261C9291005B273A /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048601261C9291005B273A /* CodableHelper.swift */; };
+		00048615261C9291005B273A /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048602261C9291005B273A /* JSONEncodableEncoding.swift */; };
+		00048616261C9291005B273A /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048603261C9291005B273A /* APIs.swift */; };
+		00048617261C9291005B273A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048605261C9291005B273A /* Date.swift */; };
+		00048618261C9291005B273A /* ErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048606261C9291005B273A /* ErrorCodes.swift */; };
+		00048619261C9291005B273A /* HolidayArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048607261C9291005B273A /* HolidayArray.swift */; };
+		0004861A261C9291005B273A /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048608261C9291005B273A /* Meta.swift */; };
+		0004861B261C9291005B273A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00048609261C9291005B273A /* Country.swift */; };
+		0004861C261C9291005B273A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860A261C9291005B273A /* Models.swift */; };
+		0004861D261C9291005B273A /* ModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860B261C9291005B273A /* ModelResponse.swift */; };
+		0004861E261C9291005B273A /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860C261C9291005B273A /* DateTime.swift */; };
+		0004861F261C9291005B273A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860D261C9291005B273A /* Extensions.swift */; };
+		00048620261C9291005B273A /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860E261C9291005B273A /* JSONEncodingHelper.swift */; };
+		00048621261C9291005B273A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004860F261C9291005B273A /* Configuration.swift */; };
+		99DA17D1458035698839320A /* Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF91CD954A74ED90C3EDD6A /* Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework */; };
+		A79AC7750542681113A760C7 /* Pods_CalendrificSwagger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09085BB55E76C95C0DF3CC0A /* Pods_CalendrificSwagger.framework */; };
+		D1FBD07CF935D886F90249DE /* Pods_CalendrificSwaggerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2119CCC1750D38232201B172 /* Pods_CalendrificSwaggerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00048598261C9109005B273A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00048579261C9104005B273A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00048580261C9104005B273A;
+			remoteInfo = CalendrificSwagger;
+		};
+		000485A3261C9109005B273A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00048579261C9104005B273A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00048580261C9104005B273A;
+			remoteInfo = CalendrificSwagger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00048581261C9104005B273A /* CalendrificSwagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendrificSwagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00048584261C9104005B273A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00048586261C9104005B273A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00048588261C9104005B273A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0004858B261C9104005B273A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0004858D261C9108005B273A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00048590261C9108005B273A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00048592261C9108005B273A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00048597261C9109005B273A /* CalendrificSwaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendrificSwaggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0004859B261C9109005B273A /* CalendrificSwaggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendrificSwaggerTests.swift; sourceTree = "<group>"; };
+		0004859D261C9109005B273A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000485A2261C9109005B273A /* CalendrificSwaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendrificSwaggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000485A6261C9109005B273A /* CalendrificSwaggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendrificSwaggerUITests.swift; sourceTree = "<group>"; };
+		000485A8261C9109005B273A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000485FC261C9291005B273A /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		000485FD261C9291005B273A /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		000485FE261C9291005B273A /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		00048600261C9291005B273A /* CalendrificAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendrificAPI.swift; sourceTree = "<group>"; };
+		00048601261C9291005B273A /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		00048602261C9291005B273A /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		00048603261C9291005B273A /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		00048605261C9291005B273A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		00048606261C9291005B273A /* ErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCodes.swift; sourceTree = "<group>"; };
+		00048607261C9291005B273A /* HolidayArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayArray.swift; sourceTree = "<group>"; };
+		00048608261C9291005B273A /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		00048609261C9291005B273A /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0004860A261C9291005B273A /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0004860B261C9291005B273A /* ModelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelResponse.swift; sourceTree = "<group>"; };
+		0004860C261C9291005B273A /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		0004860D261C9291005B273A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0004860E261C9291005B273A /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		0004860F261C9291005B273A /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		09085BB55E76C95C0DF3CC0A /* Pods_CalendrificSwagger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendrificSwagger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119CCC1750D38232201B172 /* Pods_CalendrificSwaggerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendrificSwaggerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22487D4DAE35DC3E567E9D66 /* Pods-CalendrificSwaggerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwaggerTests.release.xcconfig"; path = "Target Support Files/Pods-CalendrificSwaggerTests/Pods-CalendrificSwaggerTests.release.xcconfig"; sourceTree = "<group>"; };
+		26F372865BB6A03CA8449BFC /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwagger-CalendrificSwaggerUITests.debug.xcconfig"; path = "Target Support Files/Pods-CalendrificSwagger-CalendrificSwaggerUITests/Pods-CalendrificSwagger-CalendrificSwaggerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55865925D96BEEB4F093D151 /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwagger-CalendrificSwaggerUITests.release.xcconfig"; path = "Target Support Files/Pods-CalendrificSwagger-CalendrificSwaggerUITests/Pods-CalendrificSwagger-CalendrificSwaggerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65785D1F9A581EE3F5CC64C2 /* Pods-CalendrificSwagger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwagger.debug.xcconfig"; path = "Target Support Files/Pods-CalendrificSwagger/Pods-CalendrificSwagger.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF91CD954A74ED90C3EDD6A /* Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951CD2C646D57A745DFF033D /* Pods-CalendrificSwagger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwagger.release.xcconfig"; path = "Target Support Files/Pods-CalendrificSwagger/Pods-CalendrificSwagger.release.xcconfig"; sourceTree = "<group>"; };
+		B0262235A107D93B2405DBC2 /* Pods-CalendrificSwaggerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendrificSwaggerTests.debug.xcconfig"; path = "Target Support Files/Pods-CalendrificSwaggerTests/Pods-CalendrificSwaggerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0004857E261C9104005B273A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AC7750542681113A760C7 /* Pods_CalendrificSwagger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00048594261C9109005B273A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FBD07CF935D886F90249DE /* Pods_CalendrificSwaggerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004859F261C9109005B273A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA17D1458035698839320A /* Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00048578261C9104005B273A = {
+			isa = PBXGroup;
+			children = (
+				00048583261C9104005B273A /* CalendrificSwagger */,
+				0004859A261C9109005B273A /* CalendrificSwaggerTests */,
+				000485A5261C9109005B273A /* CalendrificSwaggerUITests */,
+				00048582261C9104005B273A /* Products */,
+				F1C91E21C6F631B8C6CD413D /* Pods */,
+				514CB6A865EC8E76A121650D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00048582261C9104005B273A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00048581261C9104005B273A /* CalendrificSwagger.app */,
+				00048597261C9109005B273A /* CalendrificSwaggerTests.xctest */,
+				000485A2261C9109005B273A /* CalendrificSwaggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00048583261C9104005B273A /* CalendrificSwagger */ = {
+			isa = PBXGroup;
+			children = (
+				000485FB261C9291005B273A /* WebServiesFiles */,
+				00048584261C9104005B273A /* AppDelegate.swift */,
+				00048586261C9104005B273A /* SceneDelegate.swift */,
+				00048588261C9104005B273A /* ViewController.swift */,
+				0004858A261C9104005B273A /* Main.storyboard */,
+				0004858D261C9108005B273A /* Assets.xcassets */,
+				0004858F261C9108005B273A /* LaunchScreen.storyboard */,
+				00048592261C9108005B273A /* Info.plist */,
+			);
+			path = CalendrificSwagger;
+			sourceTree = "<group>";
+		};
+		0004859A261C9109005B273A /* CalendrificSwaggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0004859B261C9109005B273A /* CalendrificSwaggerTests.swift */,
+				0004859D261C9109005B273A /* Info.plist */,
+			);
+			path = CalendrificSwaggerTests;
+			sourceTree = "<group>";
+		};
+		000485A5261C9109005B273A /* CalendrificSwaggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000485A6261C9109005B273A /* CalendrificSwaggerUITests.swift */,
+				000485A8261C9109005B273A /* Info.plist */,
+			);
+			path = CalendrificSwaggerUITests;
+			sourceTree = "<group>";
+		};
+		000485FB261C9291005B273A /* WebServiesFiles */ = {
+			isa = PBXGroup;
+			children = (
+				000485FC261C9291005B273A /* APIHelper.swift */,
+				000485FD261C9291005B273A /* AlamofireImplementations.swift */,
+				000485FE261C9291005B273A /* JSONValue.swift */,
+				000485FF261C9291005B273A /* APIs */,
+				00048601261C9291005B273A /* CodableHelper.swift */,
+				00048602261C9291005B273A /* JSONEncodableEncoding.swift */,
+				00048603261C9291005B273A /* APIs.swift */,
+				00048604261C9291005B273A /* Models */,
+				0004860D261C9291005B273A /* Extensions.swift */,
+				0004860E261C9291005B273A /* JSONEncodingHelper.swift */,
+				0004860F261C9291005B273A /* Configuration.swift */,
+			);
+			path = WebServiesFiles;
+			sourceTree = "<group>";
+		};
+		000485FF261C9291005B273A /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				00048600261C9291005B273A /* CalendrificAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		00048604261C9291005B273A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00048605261C9291005B273A /* Date.swift */,
+				00048606261C9291005B273A /* ErrorCodes.swift */,
+				00048607261C9291005B273A /* HolidayArray.swift */,
+				00048608261C9291005B273A /* Meta.swift */,
+				00048609261C9291005B273A /* Country.swift */,
+				0004860A261C9291005B273A /* Models.swift */,
+				0004860B261C9291005B273A /* ModelResponse.swift */,
+				0004860C261C9291005B273A /* DateTime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		514CB6A865EC8E76A121650D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09085BB55E76C95C0DF3CC0A /* Pods_CalendrificSwagger.framework */,
+				6CF91CD954A74ED90C3EDD6A /* Pods_CalendrificSwagger_CalendrificSwaggerUITests.framework */,
+				2119CCC1750D38232201B172 /* Pods_CalendrificSwaggerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C91E21C6F631B8C6CD413D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65785D1F9A581EE3F5CC64C2 /* Pods-CalendrificSwagger.debug.xcconfig */,
+				951CD2C646D57A745DFF033D /* Pods-CalendrificSwagger.release.xcconfig */,
+				26F372865BB6A03CA8449BFC /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.debug.xcconfig */,
+				55865925D96BEEB4F093D151 /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.release.xcconfig */,
+				B0262235A107D93B2405DBC2 /* Pods-CalendrificSwaggerTests.debug.xcconfig */,
+				22487D4DAE35DC3E567E9D66 /* Pods-CalendrificSwaggerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00048580261C9104005B273A /* CalendrificSwagger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000485AB261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwagger" */;
+			buildPhases = (
+				319ACD03B32BF6BDF4E313D1 /* [CP] Check Pods Manifest.lock */,
+				0004857D261C9104005B273A /* Sources */,
+				0004857E261C9104005B273A /* Frameworks */,
+				0004857F261C9104005B273A /* Resources */,
+				1DC2938F9CC5AF3F337B6840 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendrificSwagger;
+			productName = CalendrificSwagger;
+			productReference = 00048581261C9104005B273A /* CalendrificSwagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00048596261C9109005B273A /* CalendrificSwaggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000485AE261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwaggerTests" */;
+			buildPhases = (
+				CC02631F158F8D75500DF6D7 /* [CP] Check Pods Manifest.lock */,
+				00048593261C9109005B273A /* Sources */,
+				00048594261C9109005B273A /* Frameworks */,
+				00048595261C9109005B273A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00048599261C9109005B273A /* PBXTargetDependency */,
+			);
+			name = CalendrificSwaggerTests;
+			productName = CalendrificSwaggerTests;
+			productReference = 00048597261C9109005B273A /* CalendrificSwaggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000485A1261C9109005B273A /* CalendrificSwaggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000485B1261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwaggerUITests" */;
+			buildPhases = (
+				B5079B1F1E8471E84FEAA610 /* [CP] Check Pods Manifest.lock */,
+				0004859E261C9109005B273A /* Sources */,
+				0004859F261C9109005B273A /* Frameworks */,
+				000485A0261C9109005B273A /* Resources */,
+				116296794D98F20D2FBB0A71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000485A4261C9109005B273A /* PBXTargetDependency */,
+			);
+			name = CalendrificSwaggerUITests;
+			productName = CalendrificSwaggerUITests;
+			productReference = 000485A2261C9109005B273A /* CalendrificSwaggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00048579261C9104005B273A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					00048580261C9104005B273A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					00048596261C9109005B273A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00048580261C9104005B273A;
+					};
+					000485A1261C9109005B273A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00048580261C9104005B273A;
+					};
+				};
+			};
+			buildConfigurationList = 0004857C261C9104005B273A /* Build configuration list for PBXProject "CalendrificSwagger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00048578261C9104005B273A;
+			productRefGroup = 00048582261C9104005B273A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00048580261C9104005B273A /* CalendrificSwagger */,
+				00048596261C9109005B273A /* CalendrificSwaggerTests */,
+				000485A1261C9109005B273A /* CalendrificSwaggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0004857F261C9104005B273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00048591261C9108005B273A /* LaunchScreen.storyboard in Resources */,
+				0004858E261C9108005B273A /* Assets.xcassets in Resources */,
+				0004858C261C9104005B273A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00048595261C9109005B273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000485A0261C9109005B273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116296794D98F20D2FBB0A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger-CalendrificSwaggerUITests/Pods-CalendrificSwagger-CalendrificSwaggerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger-CalendrificSwaggerUITests/Pods-CalendrificSwagger-CalendrificSwaggerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger-CalendrificSwaggerUITests/Pods-CalendrificSwagger-CalendrificSwaggerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC2938F9CC5AF3F337B6840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger/Pods-CalendrificSwagger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger/Pods-CalendrificSwagger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalendrificSwagger/Pods-CalendrificSwagger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		319ACD03B32BF6BDF4E313D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendrificSwagger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5079B1F1E8471E84FEAA610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendrificSwagger-CalendrificSwaggerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC02631F158F8D75500DF6D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendrificSwaggerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0004857D261C9104005B273A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00048615261C9291005B273A /* JSONEncodableEncoding.swift in Sources */,
+				00048614261C9291005B273A /* CodableHelper.swift in Sources */,
+				00048610261C9291005B273A /* APIHelper.swift in Sources */,
+				00048619261C9291005B273A /* HolidayArray.swift in Sources */,
+				00048589261C9104005B273A /* ViewController.swift in Sources */,
+				00048585261C9104005B273A /* AppDelegate.swift in Sources */,
+				00048612261C9291005B273A /* JSONValue.swift in Sources */,
+				0004861F261C9291005B273A /* Extensions.swift in Sources */,
+				00048620261C9291005B273A /* JSONEncodingHelper.swift in Sources */,
+				00048621261C9291005B273A /* Configuration.swift in Sources */,
+				00048587261C9104005B273A /* SceneDelegate.swift in Sources */,
+				00048618261C9291005B273A /* ErrorCodes.swift in Sources */,
+				00048611261C9291005B273A /* AlamofireImplementations.swift in Sources */,
+				00048617261C9291005B273A /* Date.swift in Sources */,
+				0004861C261C9291005B273A /* Models.swift in Sources */,
+				00048616261C9291005B273A /* APIs.swift in Sources */,
+				0004861D261C9291005B273A /* ModelResponse.swift in Sources */,
+				0004861A261C9291005B273A /* Meta.swift in Sources */,
+				0004861B261C9291005B273A /* Country.swift in Sources */,
+				0004861E261C9291005B273A /* DateTime.swift in Sources */,
+				00048613261C9291005B273A /* CalendrificAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00048593261C9109005B273A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004859C261C9109005B273A /* CalendrificSwaggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004859E261C9109005B273A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000485A7261C9109005B273A /* CalendrificSwaggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00048599261C9109005B273A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00048580261C9104005B273A /* CalendrificSwagger */;
+			targetProxy = 00048598261C9109005B273A /* PBXContainerItemProxy */;
+		};
+		000485A4261C9109005B273A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00048580261C9104005B273A /* CalendrificSwagger */;
+			targetProxy = 000485A3261C9109005B273A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0004858A261C9104005B273A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0004858B261C9104005B273A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0004858F261C9108005B273A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00048590261C9108005B273A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000485A9261C9109005B273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000485AA261C9109005B273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000485AC261C9109005B273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65785D1F9A581EE3F5CC64C2 /* Pods-CalendrificSwagger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwagger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000485AD261C9109005B273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951CD2C646D57A745DFF033D /* Pods-CalendrificSwagger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwagger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000485AF261C9109005B273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0262235A107D93B2405DBC2 /* Pods-CalendrificSwaggerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwaggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwaggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendrificSwagger.app/CalendrificSwagger";
+			};
+			name = Debug;
+		};
+		000485B0261C9109005B273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22487D4DAE35DC3E567E9D66 /* Pods-CalendrificSwaggerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwaggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwaggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendrificSwagger.app/CalendrificSwagger";
+			};
+			name = Release;
+		};
+		000485B2261C9109005B273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F372865BB6A03CA8449BFC /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwaggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwaggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalendrificSwagger;
+			};
+			name = Debug;
+		};
+		000485B3261C9109005B273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55865925D96BEEB4F093D151 /* Pods-CalendrificSwagger-CalendrificSwaggerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendrificSwaggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.CalendrificSwaggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalendrificSwagger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0004857C261C9104005B273A /* Build configuration list for PBXProject "CalendrificSwagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000485A9261C9109005B273A /* Debug */,
+				000485AA261C9109005B273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000485AB261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000485AC261C9109005B273A /* Debug */,
+				000485AD261C9109005B273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000485AE261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwaggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000485AF261C9109005B273A /* Debug */,
+				000485B0261C9109005B273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000485B1261C9109005B273A /* Build configuration list for PBXNativeTarget "CalendrificSwaggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000485B2261C9109005B273A /* Debug */,
+				000485B3261C9109005B273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00048579261C9104005B273A /* Project object */;
+}

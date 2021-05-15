@@ -1,0 +1,6 @@
+framework module Pods_CalendrificSwaggerTests {
+  umbrella header "Pods-CalendrificSwaggerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

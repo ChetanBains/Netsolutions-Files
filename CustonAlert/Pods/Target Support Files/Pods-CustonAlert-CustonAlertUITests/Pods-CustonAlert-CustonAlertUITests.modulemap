@@ -1,0 +1,6 @@
+framework module Pods_CustonAlert_CustonAlertUITests {
+  umbrella header "Pods-CustonAlert-CustonAlertUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

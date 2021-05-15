@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'JSONReader' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JSONReader
+  pod 'SwiftyJSON'
+  target 'JSONReaderTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JSONReaderUITests' do
+    # Pods for testing
+  end
+
+end

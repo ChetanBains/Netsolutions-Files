@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0087B39C25F8C2750039D3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B39B25F8C2750039D3D3 /* AppDelegate.swift */; };
+		0087B39E25F8C2750039D3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B39D25F8C2750039D3D3 /* SceneDelegate.swift */; };
+		0087B3A025F8C2750039D3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B39F25F8C2750039D3D3 /* ViewController.swift */; };
+		0087B3A325F8C2750039D3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0087B3A125F8C2750039D3D3 /* Main.storyboard */; };
+		0087B3A525F8C2780039D3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0087B3A425F8C2780039D3D3 /* Assets.xcassets */; };
+		0087B3A825F8C2780039D3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0087B3A625F8C2780039D3D3 /* LaunchScreen.storyboard */; };
+		0087B3B325F8C2780039D3D3 /* JSONReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B3B225F8C2780039D3D3 /* JSONReaderTests.swift */; };
+		0087B3BE25F8C2780039D3D3 /* JSONReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B3BD25F8C2780039D3D3 /* JSONReaderUITests.swift */; };
+		0087B3CF25F8CBD10039D3D3 /* GetPlayers.json in Resources */ = {isa = PBXBuildFile; fileRef = 0087B3CE25F8CBD00039D3D3 /* GetPlayers.json */; };
+		0087B3E525F8F2A50039D3D3 /* JSONTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087B3E425F8F2A50039D3D3 /* JSONTableViewCell.swift */; };
+		76E1734169D61D9618395A6F /* Pods_JSONReader_JSONReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D53D21CD4C7270BD2F444AF /* Pods_JSONReader_JSONReaderUITests.framework */; };
+		BE338752ED93CFB39281F8B0 /* Pods_JSONReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92964A535B26C4532D3B174A /* Pods_JSONReader.framework */; };
+		F011C2667CB2E0A4DFDC733D /* Pods_JSONReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2017560857727FE8FE88CE6D /* Pods_JSONReaderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0087B3AF25F8C2780039D3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0087B39025F8C2750039D3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0087B39725F8C2750039D3D3;
+			remoteInfo = JSONReader;
+		};
+		0087B3BA25F8C2780039D3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0087B39025F8C2750039D3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0087B39725F8C2750039D3D3;
+			remoteInfo = JSONReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0087B39825F8C2750039D3D3 /* JSONReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087B39B25F8C2750039D3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0087B39D25F8C2750039D3D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0087B39F25F8C2750039D3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0087B3A225F8C2750039D3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0087B3A425F8C2780039D3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0087B3A725F8C2780039D3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0087B3A925F8C2780039D3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0087B3AE25F8C2780039D3D3 /* JSONReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087B3B225F8C2780039D3D3 /* JSONReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderTests.swift; sourceTree = "<group>"; };
+		0087B3B425F8C2780039D3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0087B3B925F8C2780039D3D3 /* JSONReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087B3BD25F8C2780039D3D3 /* JSONReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderUITests.swift; sourceTree = "<group>"; };
+		0087B3BF25F8C2780039D3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0087B3CE25F8CBD00039D3D3 /* GetPlayers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetPlayers.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		0087B3E425F8F2A50039D3D3 /* JSONTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTableViewCell.swift; sourceTree = "<group>"; };
+		2017560857727FE8FE88CE6D /* Pods_JSONReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B02A269FA91870A56AA658 /* Pods-JSONReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReader.debug.xcconfig"; path = "Target Support Files/Pods-JSONReader/Pods-JSONReader.debug.xcconfig"; sourceTree = "<group>"; };
+		3D53D21CD4C7270BD2F444AF /* Pods_JSONReader_JSONReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONReader_JSONReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CC141EB56BADD5B8A22DB4 /* Pods-JSONReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-JSONReaderTests/Pods-JSONReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		604E2CD410EC94D3CE54CB16 /* Pods-JSONReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReaderTests.release.xcconfig"; path = "Target Support Files/Pods-JSONReaderTests/Pods-JSONReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		75E9E5A0D91673E91B8D9B6A /* Pods-JSONReader-JSONReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReader-JSONReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-JSONReader-JSONReaderUITests/Pods-JSONReader-JSONReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92964A535B26C4532D3B174A /* Pods_JSONReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6AD04AD5052346B2F63D3B /* Pods-JSONReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReader.release.xcconfig"; path = "Target Support Files/Pods-JSONReader/Pods-JSONReader.release.xcconfig"; sourceTree = "<group>"; };
+		F6F8189CACE49108BD2CA25C /* Pods-JSONReader-JSONReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONReader-JSONReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-JSONReader-JSONReaderUITests/Pods-JSONReader-JSONReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0087B39525F8C2750039D3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE338752ED93CFB39281F8B0 /* Pods_JSONReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3AB25F8C2780039D3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011C2667CB2E0A4DFDC733D /* Pods_JSONReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3B625F8C2780039D3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E1734169D61D9618395A6F /* Pods_JSONReader_JSONReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0087B38F25F8C2750039D3D3 = {
+			isa = PBXGroup;
+			children = (
+				0087B39A25F8C2750039D3D3 /* JSONReader */,
+				0087B3B125F8C2780039D3D3 /* JSONReaderTests */,
+				0087B3BC25F8C2780039D3D3 /* JSONReaderUITests */,
+				0087B39925F8C2750039D3D3 /* Products */,
+				48249679CA9E003B7E928BFE /* Pods */,
+				E30FCFF3187C99FC2C6ADF6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0087B39925F8C2750039D3D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0087B39825F8C2750039D3D3 /* JSONReader.app */,
+				0087B3AE25F8C2780039D3D3 /* JSONReaderTests.xctest */,
+				0087B3B925F8C2780039D3D3 /* JSONReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0087B39A25F8C2750039D3D3 /* JSONReader */ = {
+			isa = PBXGroup;
+			children = (
+				0087B3E025F8CEFA0039D3D3 /* JSONs */,
+				0087B39B25F8C2750039D3D3 /* AppDelegate.swift */,
+				0087B39D25F8C2750039D3D3 /* SceneDelegate.swift */,
+				0087B39F25F8C2750039D3D3 /* ViewController.swift */,
+				0087B3A125F8C2750039D3D3 /* Main.storyboard */,
+				0087B3A425F8C2780039D3D3 /* Assets.xcassets */,
+				0087B3A625F8C2780039D3D3 /* LaunchScreen.storyboard */,
+				0087B3A925F8C2780039D3D3 /* Info.plist */,
+				0087B3E425F8F2A50039D3D3 /* JSONTableViewCell.swift */,
+			);
+			path = JSONReader;
+			sourceTree = "<group>";
+		};
+		0087B3B125F8C2780039D3D3 /* JSONReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0087B3B225F8C2780039D3D3 /* JSONReaderTests.swift */,
+				0087B3B425F8C2780039D3D3 /* Info.plist */,
+			);
+			path = JSONReaderTests;
+			sourceTree = "<group>";
+		};
+		0087B3BC25F8C2780039D3D3 /* JSONReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0087B3BD25F8C2780039D3D3 /* JSONReaderUITests.swift */,
+				0087B3BF25F8C2780039D3D3 /* Info.plist */,
+			);
+			path = JSONReaderUITests;
+			sourceTree = "<group>";
+		};
+		0087B3E025F8CEFA0039D3D3 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				0087B3CE25F8CBD00039D3D3 /* GetPlayers.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		48249679CA9E003B7E928BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B02A269FA91870A56AA658 /* Pods-JSONReader.debug.xcconfig */,
+				9D6AD04AD5052346B2F63D3B /* Pods-JSONReader.release.xcconfig */,
+				F6F8189CACE49108BD2CA25C /* Pods-JSONReader-JSONReaderUITests.debug.xcconfig */,
+				75E9E5A0D91673E91B8D9B6A /* Pods-JSONReader-JSONReaderUITests.release.xcconfig */,
+				49CC141EB56BADD5B8A22DB4 /* Pods-JSONReaderTests.debug.xcconfig */,
+				604E2CD410EC94D3CE54CB16 /* Pods-JSONReaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E30FCFF3187C99FC2C6ADF6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92964A535B26C4532D3B174A /* Pods_JSONReader.framework */,
+				3D53D21CD4C7270BD2F444AF /* Pods_JSONReader_JSONReaderUITests.framework */,
+				2017560857727FE8FE88CE6D /* Pods_JSONReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0087B39725F8C2750039D3D3 /* JSONReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087B3C225F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReader" */;
+			buildPhases = (
+				4352A45B277632544E1424D1 /* [CP] Check Pods Manifest.lock */,
+				0087B39425F8C2750039D3D3 /* Sources */,
+				0087B39525F8C2750039D3D3 /* Frameworks */,
+				0087B39625F8C2750039D3D3 /* Resources */,
+				894DEB2088E615E2BD613562 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONReader;
+			productName = JSONReader;
+			productReference = 0087B39825F8C2750039D3D3 /* JSONReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0087B3AD25F8C2780039D3D3 /* JSONReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087B3C525F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReaderTests" */;
+			buildPhases = (
+				425E152DBE87CDA8E780E8B6 /* [CP] Check Pods Manifest.lock */,
+				0087B3AA25F8C2780039D3D3 /* Sources */,
+				0087B3AB25F8C2780039D3D3 /* Frameworks */,
+				0087B3AC25F8C2780039D3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0087B3B025F8C2780039D3D3 /* PBXTargetDependency */,
+			);
+			name = JSONReaderTests;
+			productName = JSONReaderTests;
+			productReference = 0087B3AE25F8C2780039D3D3 /* JSONReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0087B3B825F8C2780039D3D3 /* JSONReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087B3C825F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReaderUITests" */;
+			buildPhases = (
+				ED5C48D9A4D66141F11F573A /* [CP] Check Pods Manifest.lock */,
+				0087B3B525F8C2780039D3D3 /* Sources */,
+				0087B3B625F8C2780039D3D3 /* Frameworks */,
+				0087B3B725F8C2780039D3D3 /* Resources */,
+				153E9DD6BF5C41D3FB6E19ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0087B3BB25F8C2780039D3D3 /* PBXTargetDependency */,
+			);
+			name = JSONReaderUITests;
+			productName = JSONReaderUITests;
+			productReference = 0087B3B925F8C2780039D3D3 /* JSONReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0087B39025F8C2750039D3D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0087B39725F8C2750039D3D3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0087B3AD25F8C2780039D3D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0087B39725F8C2750039D3D3;
+					};
+					0087B3B825F8C2780039D3D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0087B39725F8C2750039D3D3;
+					};
+				};
+			};
+			buildConfigurationList = 0087B39325F8C2750039D3D3 /* Build configuration list for PBXProject "JSONReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0087B38F25F8C2750039D3D3;
+			productRefGroup = 0087B39925F8C2750039D3D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0087B39725F8C2750039D3D3 /* JSONReader */,
+				0087B3AD25F8C2780039D3D3 /* JSONReaderTests */,
+				0087B3B825F8C2780039D3D3 /* JSONReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0087B39625F8C2750039D3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B3A825F8C2780039D3D3 /* LaunchScreen.storyboard in Resources */,
+				0087B3A525F8C2780039D3D3 /* Assets.xcassets in Resources */,
+				0087B3A325F8C2750039D3D3 /* Main.storyboard in Resources */,
+				0087B3CF25F8CBD10039D3D3 /* GetPlayers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3AC25F8C2780039D3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3B725F8C2780039D3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153E9DD6BF5C41D3FB6E19ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONReader-JSONReaderUITests/Pods-JSONReader-JSONReaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONReader-JSONReaderUITests/Pods-JSONReader-JSONReaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONReader-JSONReaderUITests/Pods-JSONReader-JSONReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425E152DBE87CDA8E780E8B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4352A45B277632544E1424D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894DEB2088E615E2BD613562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONReader/Pods-JSONReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONReader/Pods-JSONReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONReader/Pods-JSONReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5C48D9A4D66141F11F573A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONReader-JSONReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0087B39425F8C2750039D3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B3A025F8C2750039D3D3 /* ViewController.swift in Sources */,
+				0087B39C25F8C2750039D3D3 /* AppDelegate.swift in Sources */,
+				0087B39E25F8C2750039D3D3 /* SceneDelegate.swift in Sources */,
+				0087B3E525F8F2A50039D3D3 /* JSONTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3AA25F8C2780039D3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B3B325F8C2780039D3D3 /* JSONReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B3B525F8C2780039D3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B3BE25F8C2780039D3D3 /* JSONReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0087B3B025F8C2780039D3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0087B39725F8C2750039D3D3 /* JSONReader */;
+			targetProxy = 0087B3AF25F8C2780039D3D3 /* PBXContainerItemProxy */;
+		};
+		0087B3BB25F8C2780039D3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0087B39725F8C2750039D3D3 /* JSONReader */;
+			targetProxy = 0087B3BA25F8C2780039D3D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0087B3A125F8C2750039D3D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0087B3A225F8C2750039D3D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0087B3A625F8C2780039D3D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0087B3A725F8C2780039D3D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0087B3C025F8C2780039D3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0087B3C125F8C2780039D3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0087B3C325F8C2780039D3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B02A269FA91870A56AA658 /* Pods-JSONReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0087B3C425F8C2780039D3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6AD04AD5052346B2F63D3B /* Pods-JSONReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0087B3C625F8C2780039D3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CC141EB56BADD5B8A22DB4 /* Pods-JSONReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONReader.app/JSONReader";
+			};
+			name = Debug;
+		};
+		0087B3C725F8C2780039D3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604E2CD410EC94D3CE54CB16 /* Pods-JSONReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONReader.app/JSONReader";
+			};
+			name = Release;
+		};
+		0087B3C925F8C2780039D3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F8189CACE49108BD2CA25C /* Pods-JSONReader-JSONReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSONReader;
+			};
+			name = Debug;
+		};
+		0087B3CA25F8C2780039D3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E9E5A0D91673E91B8D9B6A /* Pods-JSONReader-JSONReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSONReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = netsolutions.JSONReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSONReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0087B39325F8C2750039D3D3 /* Build configuration list for PBXProject "JSONReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B3C025F8C2780039D3D3 /* Debug */,
+				0087B3C125F8C2780039D3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0087B3C225F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B3C325F8C2780039D3D3 /* Debug */,
+				0087B3C425F8C2780039D3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0087B3C525F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B3C625F8C2780039D3D3 /* Debug */,
+				0087B3C725F8C2780039D3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0087B3C825F8C2780039D3D3 /* Build configuration list for PBXNativeTarget "JSONReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B3C925F8C2780039D3D3 /* Debug */,
+				0087B3CA25F8C2780039D3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0087B39025F8C2750039D3D3 /* Project object */;
+}

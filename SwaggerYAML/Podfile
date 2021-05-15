@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'SwaggerYAML' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwaggerYAML
+pod 'Alamofire'
+
+  target 'SwaggerYAMLTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwaggerYAMLUITests' do
+    # Pods for testing
+  end
+
+end

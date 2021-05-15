@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'CustonAlert' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CustonAlert	
+pod 'SCLAlertView'
+
+  target 'CustonAlertTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CustonAlertUITests' do
+    # Pods for testing
+  end
+
+end
